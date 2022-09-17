@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" >
+    <title>Thedy and Princess</title>
+</head>
+<body>
+    
+    <!------UVOD------>
+    <section class="header" id="domu">
+        <div class="text">
+            <h1>Theddy & Princess</h1>
+            <p>Vítejte na stránkách Tadeáše a Princezny</p>
+            <div class="btn">
+                <a href="#" id="button"><span></span> Napište nám</a>
+            </div>
+        </div>
+    </section>
+
+    <!------FORM------>
+    <div class="bg-model">
+        <div class="model-content">
+            <div class="close">+</div>
+
+            <form action="https://formsubmit.co/pazehle@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://www.thaddyandprincess.wz.cz/thankyou.html">
+
+                <label for="jmeno">Jméno:</label>
+                <input type="text" name="jmeno" id="jmeno" placeholder="Jméno" required>
+
+                <label for="prijmeni">Příjmení:</label>
+                <input type="text" name="prijmeni" id="prijmeni" placeholder="Příjmení" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+
+                <label for="cislo">Tel. číslo:</label>
+                <input type="number" name="cislo" id="cislo" placeholder="Tel. číslo">
+
+                <label for="textarea">Dotazy, komentáře:</label>
+                <textarea id="textarea" name="textarea" rows="3" required></textarea>
+
+                <input type="submit" value="odeslat" id="odeslat">
+            </form>
+        </div>
+    </div>
+
+    <!------MENU------>
+    <div id="nav-links">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#domu">Domů</a>
+                </li>
+
+                <li>
+                    <a href="#aboutus">O nás</a>
+                </li>
+
+                <li>
+                    <a href="#pece-strava">Péče/strava</a>
+                </li>
+
+                <li>
+                    <a href="#fotogalerie">Fotogalerie</a>
+                </li>
+
+                <li>
+                    <a href="#">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div id="menuBtn">
+        <img src="Photo/menu.png" id="menu">
+    </div>
+
+    <!------O NAS------>
+    <section class="aboutus" id="aboutus">
+        <div class="img-aboutus">
+            <img src="Photo/Princess.jpg" alt="Princess" class="imgP">
+            <img src="Photo/Theddy.JPG" alt="Princess" class="imgT">
+        </div> 
+        
+        <div class="aboutusTT">
+            <img src="Photo/icon2.png" class="icon2" alt="icon2">  
+        </div>
+
+        <div class="aboutusT">
+            <h1 class="aboutusN">O nás</h1>
+            <p>
+                Jsme nová chovatelská stanice zaměřující se na chov zakrslých králíků. 
+                Máme spojení za teddy + beránek. Králíčky jsme si natolik zamiovali, 
+                že jsme se rozhodli pořídit malou chovnou skupinku teddíků naší 
+                králíčice Princezny a králíka Tadeáše.
+            </p>
+            <p>
+                Náš chov není za účelem zisku. Veškeré peníze z prodeje jsou použity na 
+                péči, očkování, granule, seno, slámu, vitamíny, pamlsky a bydlení našich 
+                králíčků. Chceme aby se naše mláďátka dostala do dobrých rukou.
+            </p>
+
+        </div>
+       
+    </section>
+
+      <!------Péče a strava------>
+
+    <section class="pece-strava" id="pece-strava">
+        <div>
+            <img src="Photo/mrkev.png" class="mrkev" alt="mrkev">
+        </div>
+
+        <div>
+            <h1>
+                Péče a strava
+            </h1>
+        </div>
+
+        <div class="zuby">
+            <img src="Photo/zub.png" alt="zub" class="zub-img">
+
+            <h2>
+                Zuby
+            </h2>
+
+            <p>
+                Pro králíčka jsou samozřejmě důležité jeho zoubky, které neustále rostou, 
+                a tak si je musí obrušovat. Obvykle si je dostatečně obrousí při běžném jídle,
+                někdy je ale pro něj vítanou změnou třeba větvička, kterou může trhat, 
+                je to pro něj něj zábava a zároveň je to pro jeho zoubky zdravé. Také se mu dává
+                tvrdý chleba, který zabírá skvěle. Pokud by ale takové obrušování nestačilo
+                a králíčkovi by zuby přerůstaly, tak je nutné  navštívit veterináře,
+                který v narkózé zuby králíčkovi obrousí.
+            </p>
+        </div>
+
+        <div class="jidelnicek">
+            <img src="Photo/grass.png" alt="grass" class="grass-img">
+            
+            <h2>
+                Jídelníček 
+            </h2>
+
+            <p>
+                Další důležitou otázkou je, co takový králíček může a nemůže jíst. 
+                Králíček by měl mít neustále dostatek sena a vody. Protože králíci patří mezi 
+                býložravce, tak je pro ně absolutně nezbytné právě seno a zelenina. U zakrslých 
+                králíčků chovaných doma se jejich jídelníček běžně doplňuje různými granulemi, 
+                případně ovocem. Stejně jako pro člověka, tak i pro králíčka je důležitý správný
+                 a vyvážený jídelníček plný důležitých živin. Také je důležité, aby si majitel 
+                králíčka všímal všech králíčkových stravovacích návyků, protože jejich náhlá 
+                změna může být jasným signálem nějakého onemocnění, případně přerůstání zoubků.
+                Obzvlášť nebezpečné je, když králíček zničehonic zcela odmítá potravu a zároveň 
+                začne působit velmi unaveně, přešle a apaticky. Pro králíčky není zdravé,
+                aby nedostali potravu (nebo nejedli) celý den, kromě toho, že to značí nějaký
+                zdravotní problém, tak to může i králíčkovi způsobit zpomalení nebo zastavení
+                trávicího systému. Narozdíl od člověka pokud králíčka čeká nějaká operace
+                (například i obrušování zoubků v narkóze), tak králíček musí i před
+                zákrokem jíst. Samozřejmě by se neměl překrmovat, ale potravin v sobě musí
+                mít dostatek. Stejně tak i po operaci králíček musí začít jíst co nejdříve,
+                pokud stravu odmítá, musí být dokrmován (umělá výživa se dá do něj dostat tak,
+                že se mu injekční stříkačkou samozřejmě bez jehly stříkne do pusy).
+                Navíc i návštěva lékaře není na škodu, lékař může zabránit tomu,
+                aby králíček byl dehydratován, a zároveň vám pro něj může dát různé léky,
+                aby se podpořila chuť k jídlu.
+
+                Důležité je si také uvědomit, že tím, že králíčka nebudeme dostatečně krmit,
+                nezpůsobíme, že králíček bude opravdu malý. Velikost králíčka je prostě dána geny,
+                králíček poroste i s malými porcemi jídla. Naopak mu to může zdravotně velmi ublížit.
+            </p>
+        </div>
+
+        <div class="seno">
+            <img src="Photo/seno.png" alt="seno" class="seno-img">
+            
+            <h2>
+                Seno
+            </h2>
+
+            <p>
+                Pro králíčka je rozhodně ze všech potravin nejdůležitější seno, které obsahuje vlákninu,
+                a tak pomáhá pohybu střev a udržuje v nich správnou rovnováhu. Zároveň králíček
+                seno přežvykuje, takže si tím obrušuje zoubky. Výběr správného sena je pro králíčka
+                velmi důležitý. Seno nemůže být prašné, mohlo by u králíčka způsobit třeba zánět očí.
+                Také musí být suché, protože vlhké seno začne plesnivět a plíseň je pro králíčka
+                velmi nebezpečná, mohla by mu poškodit i orgány jako jsou játra a ledviny. 
+                Důležité také je, aby seno králíčkovi vonělo, aby ho vůbec chtěl jíst. Králíčci mají
+                většinou rádi seno, kde je hodně pampelišky nebo jetele, které jim chutná
+                a zároveň i voní. Pokud z nějakého důvodu králíčkovi koupené seno nevoní,
+                je možné do něj přidat sušené bylinky (například právě pampelišku), které senu 
+                dají novou, čerstvou a pro králíčky lahodnou vůni. Pokud si seno sušíte sami,
+                musíte být velice opatrní, abyste omylem neusušili nějakou rostlinu, která je
+                pro králíčka velmi jedovatá. Zároveň čerstvě usušené seno se musí nechat nejprve
+                několik týdnů uležet, aby v něm došlo ke všem nutným biochemickým změnám,
+                které by jinak mohly opět způsobit zdravotní problémy u králíčka. To platí i
+                o bylinkách sušených doma, i zde je nutné nejprve několik týdnů počkat,
+                než dovolíme, aby se do nich králíček zahlodal.
+            </p>
+        </div>
+
+        <div class="voda">
+            <img src="Photo/water.png" alt="water" class="water-img">
+            
+            <h2>
+                Voda
+            </h2>
+
+            <p>
+                Kromě sena musí mít králíček neustále k dispozici i vodu, nejvhodnější je vodu
+                mít v napáječce, protože do misky si může králíček nahrabat jakýkoliv nepořádek
+                z klece, případně si může misku lehce převrhnout. Napáječka se musí ale pravidelně 
+                minimálně jednou týdně čistit, protože se v ní usazují různé nečistoty. Do vody
+                byste měli králíčkům vždy přidávat Acidomid K, který zabraňuje množení plísní ve 
+                vodě a zároveň je to jedna z prevencí proti kokcidióze. Samozřejmě ne každému 
+                králíčkovi taková voda chutná, pokud ji nepije, tak prostě Acidomid K vyřaďte.
+            </p>
+        </div>
+
+        <div class="granule">
+            <img src="Photo/granule.png" alt="granule" class="granule-img">
+            
+            <h2>
+                Granule
+            </h2>
+
+            <p>
+                Řada majitelů králíčků zcela zapomíná na význam sena a čerstvé zeleniny a 
+                uchylují se hlavně ke granulím, které by ale měly sloužit hlavně jako doplněk 
+                stravy a ne jako jeho hlavní složka. V jídelníčku dospělého králíčka se dokonce 
+                nemusí takové krmení vyskytnout vůbec, ale je nutné, aby v takovém případě měl 
+                králíček opravdu dostatek sena, zeleniny a trochy ovoce. U mladých králíčků je 
+                to něco jiného, pro ně jsou granule základ stravy, ale musí se jednat o 
+                granule určené pro jejich věk (zhruba do 6. -7. měsíce). Pro dospělého králíka 
+                by měly stačit tak dvě polévkové lžíce granulí za den, ideálně také dávkované 
+                večer a ráno. Granule se musí uchovávat v suchu a chladu. Při výběru granulí se 
+                sleduje, kolik obsahují vlákniny, bílkovin, vápníku, fosforu, tuků a vitamínu D. 
+                Docela dobré jsou pro dospělého králíka vhodné granule Oxbow Bunny Basic Adult Rabbit Food, 
+                nebo ZuPreem Natures Promise. Pro mláďata se doporučují granule 
+                Oxbow Bunny Basics Young Rabbit Food, nebo Care+ Junior, nebo Kiki Premium Baby.
+
+                Přestože řada prodejen nabízí různé druhy směsek, které se skládají z obilnin, 
+                luštěnin, nebo různých semínek, ovoce a oříšků, tak tyto směsky jsou pro králíčky 
+                nevhodné, protože často obsahují sušené mléko nebo živočišné moučky. Zároveň jsou také 
+                velmi kalorické, což pro králíčka není dobré, obzvlášť pokud ten tráví velkou část dne 
+                zavřený v kleci. Zároveň v nich zvýšené množství tuků a škrobů může u králíčků způsobit 
+                zdravotní problémy. Zároveň u těchto směsek králíček ukazuje svoji chytrost a lehce si 
+                vybere to, co mu chutná, o ostatní ani pohledem nezavadí, natož aby to snědl. Tak třeba 
+                přichází o nějaké živiny, které jsou pro něj důležité. Při nákupu granulí je opravdu 
+                důležité číst složení. Také je třeba si uvědomit, že čím je králíček starší, tím víc 
+                nerad mění své zvyky, to se týká také typu granulí. Pokud je králíček starší a najednou 
+                se granule změní, může se to odrazit i na jeho chování. Majitel by králíčkovi opravdu 
+                neměl dávat větší množství granulí, protože ten si na ně zvykne a začne jim dávat 
+                přednost před senem, což je opět ze zdravotních důvodů pro králíčka špatné.
+            </p>
+        </div>
+
+        <div class="zelenina">
+            <img src="Photo/okurka.png" alt="okurka" class="okurka-img">
+            
+            <h2>
+                Zelenina
+            </h2>
+
+            <p>
+                Třetí významnou složkou stravy králíčka, hned po senu a vodě (granule nepočítám, 
+                ty jsou opravdu jen doplňkem) je zelenina. U králíků je to stejné jako u lidí, 
+                každý králík dává přednost něčemu jinému. Zelenina je pro králíčky důležitá, protože 
+                obsahuje pro ně nezbytné vitamíny i vlákninu. Králíček by měl dostávat zeleninu dvakrát 
+                denně, ideálně ráno a večer (pokaždé asi hrst zeleniny). Nejvhodnější je k tomu zeleninový 
+                salát, který bude tvořen alespoň 5 druhy zeleniny. Druhy by se měly často měnit, protože každá 
+                zelenina obsahuje jiné minerální látky a vitamíny. Zelenina musí mít pokojovou teplotu, 
+                rozhodně se nepodává přímo z lednice, a vždy je třeba ji nejprve omýt a zkontrolovat jestli 
+                není shnilá, plesnivá nebo zapařená. Zelenina se králíčkům podává nejdříve až po 7. týdnu jeho života, 
+                v tu dobu už je jeho zažívání schopné si se zeleninou poradit.
+
+                Králíčkům se nejčastěji podává mrkev. Vždy, když u králíčka začínáte s novým druhem 
+                zeleniny, je dobré dát mu jen trošku a sledovat, jestli mu tato zelenina nezpůsobuje zažívací potíže, 
+                pokud je králíček v pořádku, může danou zeleninu i nadále konzumovat.
+
+                Přestože je zelenina pro králíčka důležitá, není vhodné mu ji dávat v neomezeném množství. 
+                Některé druhy zeleniny nejsou úplně vhodné, protože můžou způsobit třeba nadýmání. 
+                Mezi takovou zeleninu patří určitě kedlubna, zelí i brokolice. Pokud s nimi králíček nemá problém, 
+                můžeme mu ji dávat, ale v malém množství a určitě ne jako hlavní zeleninu.
+
+                Pro králíčky je tedy vhodný artyčok (vitamín A), brokolice (vápník), brukev (vápník), celer (vitamín A), 
+                cuketa (vitamín A), čekanka (vitamín A), dýně (vitamín A), fenykl (vitamín A), chřest (vitamín A), 
+                kapusta (vápník a kyselina šťavelová), kedlubna (vápník a kyselina šťavelová), kukuřice (vitamín A), 
+                květák (vitamín A), baklažán (vitamín A), mrkev (vitamín A), okurka (vitamín A), pastiňák (vápník), 
+                paprika (vitamín A a vitamín C), pažitka (vápník), petržel (vápník), rukola (vápník a kyselina šťavelová), 
+                rajčata (vitamín A), řepa (řepa bílá obsahuje dostatek vápníku a řepa červená zase kyselinu šťavelovou), 
+                ředkvičky (vitamín A), řeřicha (vápník), salát (vitamín A), špenát (kyselina šťavelová), 
+                zelené fazolky (vitamín A), zelí (vápník, kyselina šťavelová, ale i řada vitamínů a minerálů).
+
+                Naopak pro králíčky jsou nevhodné brambory, protože je v nich mnoho škrobu, cibule, která dráždí 
+                sliznice a ničí ve střevech i dobré bakterie, čímž snižuje králíčkovu imunitu. Ze stejného důvodu je 
+                také nevhodný česnek a feferonky. Nevhodná je také čočka, která králíčka velmi nadýmá, čerstvé fazole, 
+                protože jsou jedovaté, špatný je také pórek a rebarbora, která obsahuje mnoho kyseliny šťavelové a je lehce jedovatá.
+
+                V některých zeleninách je tedy obsažená kyselina šťavelová, která může králíčkovi také uškodit, protože spolu 
+                s vápníkem vytváří v močových cestách kamínky, takže mnoho zeleniny s vysokým obsahem kyseliny šťavelové může 
+                u králíčků způsobit nemoci ledvin, močové kameny, ale i odvápnění kostí. Není potřeba se ale této kyselině zcela 
+                vyhýbat, v malém množství neškodí. Další nevhodnou látkou je solanin, který obsahují rajčata a brambory. 
+                Solanin zase způsobuje žaludeční potíže, záněty střev, průjmy, záněty ledvin, poruchu krevního oběhu a dýchání, 
+                dokonce může poškodit i nervový systém. Rozhodně tedy není vhodné králíčkovi dopřát (ani v malém množství!) 
+                zelené části brambor, nezralá rajčata, nebo jejich listy a stonky. Další škodlivou látkou obsaženou v některých
+                druzích zeleniny jsou nitráty. Tedy sloučeniny dusíku a kyslíku. U zvířat může dojít k otravě nitridy, což způsobí 
+                průjmy, svalový třes, potácení. Stejně jako kyselina šťavelová v nízkém množství nitráty králíčkovi neuškodí.
+            </p>
+        </div>
+
+        <div class="byliny">
+            <img src="Photo/bylina.png" alt="byliny" class="bylina-img">
+            
+            <h2>
+                Byliny
+            </h2>
+
+            <p>
+                Další významnou složkou stravy králíčků jsou byliny, těmi snad nepohrdne žádný králíček, zároveň ale ve velkém 
+                množství mohou u dospělých králíčků způsobit řadu problémů. Také je třeba si uvědomit, že není bylina jako bylina, 
+                a stejně tak významné je i místo, odkud byliny pochází. Pro králíčka jsou zcela nevhodné byliny pocházející z polí, 
+                nebo z jejich blízkosti (pravděpodobně i je zasáhlo hnojení), z trávníků ve městech (často se zde venčí psi, 
+                což může u králíčků způsobit vážné zdravotní komplikace), z blízkosti silnic (byliny jsou znečištěny výfukovými plyny).
+
+                Bylinky může králíček jíst sušené i čerstvé, tady se zase doporučuje jen dávat pozor na rozumné množství sušených 
+                bylin obsahujících velké množství vápníku.
+
+                Mezi pro králíky vhodné bylinky patří anýz (pomáhá trávení), bazalka (zklidňuje a povzbuzuje chuť k jídlu), borůvkové listí, 
+                brutnák lékařský (vysoký obsah minerálů může ve vysokých dávkách poškodit játra), echinacea (zlepšuje imunitu), heřmánek 
+                (pomáhá při zažívacích problémech a při onemocněních dýchacích cest), hluchavka, chrpa (králíček jí jen květy!), jahodníkové 
+                listí, jetel (mladý jetel může silně nadýmat a způsobit průjem), jitrocel kopinatý (protizánětlivý, 
+                pomáhá při zažívacích potížích), jitrocel větší (také protizánětlivý a tiší zažívací problémy), kokoška pastuší 
+                tobolka (zastavuje krvácení, je absolutně nevhodný pro březí samice!), kontryhel, kopr (obsah řady vitamínů, 
+                povzbuzuje chuť k jídlu a trávení, tlumí křeče), kopretina, kopřiva (močopudná, používá se zvadlá nebo usušená!), koriandr, 
+                kostival lékařský, levandule, libeček (ledvinové a žaludeční problémy, nepodává se březím samicím!), lískové listy, majoránka, 
+                malinové listy, máta peprná (podporuje trávicí ústrojí, prokrvení i tvorbu žluči), mateřídouška, meduňka (protikřečové účinky, 
+                pomáhá při nadýmání), měsíček (zklidňující účinek, používají se květy!), oregano (pomáhá se střevními potížemi, při léčbě kokcidiózy), 
+                ostružinové listí (vysoký obsah kyseliny tříslové, pokud je na listí i trní, tak se podává jen sušené), pampeliška (močopudný účinek, 
+                používají se kořen, listy i květ), pelyněk (králíčkům se podává málokdy obsahuje thujon), petrželí 
+                (vysoký obsah vápníku a nepodává se březím samicím!), podběl (protizánětlivý), řeřicha (povzbuzuje chuť k jídlu, 
+                podporuje látkovou výměnu a je močopudná, podává se také ve velmi malém množství), rozmarýna, růže 
+                (králíčkovi se nepodává jako strava růže kupovaná v obchodu, z růže má rád listy bez trnů a květy), rybízové listí, řebříček 
+                (nachlazení, problémy s ledvinami, močovými cestami a měchýřem), sedmikráska (podporuje hojení při onemocnění plic), slunečnice 
+                (okvětní lísky a rostlina, nikdy se králíčkovi nepodávají slunečnicová semínka!), šťavel kyselý (pozor na vysoký obsah kyseliny šťavelové), 
+                šťovík (pozor na vysoký obsah kyseliny šťavelové), třezalka tečkovaná (zklidňující účinky), tymián, vojtěška. Z travin to je bojínek luční, 
+                jílek vytrvalý, kostřava rákosovitá, lipnice luční, poháňka, psárka polní, srha laločnatá. Některé z bylin mají i pro králíčka určité léčivé účinky.
+
+                Řada bylin je současně léčivými rostlinami, a tak ve větším množství může být pro králíčka nebezpečná a poškodit mu třeba některé 
+                orgány jako ledviny a játra. Proto při výběru bylin je třeba být hodně opatrný. Zároveň se také stává, že některé byliny jsou 
+                snadno zaměnitelné za jiné, které jsou ale pro králíčky jedovaté. Pokud tedy nemáte jistotu, že trháte opravdu správnou bylinu, 
+                tak ji raději králíčkovi nepodávejte.
+
+                Stejně jako řada bylin je pro králíčky z nějakého důvodu vhodná, tak velká spousta z nich je nevhodná, protože jsou pro něj jedovatá. 
+                Řadí se sem rostliny jak volně rostoucí (bažanka vytrvalá, blatouch bahenní, bledule jarní, bolehlav, česnek medvědí, halucha, hrachory, 
+                jmelí bíle, kapraď samec, konvalinka vonná, lilek černý, lýkovec jedovatý, mák, náprstník červený, ocún jesenní, oměj šalamounek, 
+                prvosenka jarní, pryskyřník prudký, přeslička, rulík zlomocný, sasanka hajní, sněženka předjarní, starček přímětník, vlaštovičník větší, 
+                vratič obecný), tak také rostliny pěstované na zahradě (barvínek menší, břečťan popínavý, cesmína ostrolistá, čemeřice černá, hyacint, 
+                krokus, lilie, lupina mnoholistá, modřenec širolistý, narcis, tulipán), stejné problémy králíčkovi mohou ale způsobit i rostliny pěstované 
+                doma (agáve, hvězdník, anthurie, azalka indická, begonie, brambořík perský, dracéna, fíkovník malolistý, fíkovník gumovník, filodendron, 
+                hortenzie velkolistá, kala, řemenatka, kroton, lilek korálový, lopatkovec, monstera, mučenka, oleandr, pelargonie, muškát, potosovec zlatý, 
+                pouštní růže, prýšec zářivý, toulitka, vánoční hvězda). Všem těmto rostlinám se králíček opravdu musí vyhýbat. Samozřejmě rostlin je 
+                více než je tento výčet, a proto platí jasné pravidlo, jestli nemáte absolutní jistotu, že to králíčkovi neublíží, tak mu to nepodávejte.
+            </p>
+        </div>
+
+        <div class="dreviny">
+            <img src="Photo/dreviny.png" alt="dreviny" class="dreviny-img">
+            
+            <h2>
+                Dřeviny
+            </h2>
+
+            <p>
+                Další složkou jídelníčku zakrslých králíčků se stávají různé větvičky dřevin, které mají pro králíčky několik významů. V první řadě i větvičky 
+                obsahují různé rostlinné a minerální látky, které králíčci potřebují ke svému zdravému vývoji. Zároveň ohlodávání větviček je pro králíčky 
+                vítanou kratochvílí. Řada králíčků se okusování různých větviček vydrží věnovat i několik hodin, jen tak je to neunaví a nepřestane bavit. 
+                Zároveň je okusování větviček zdravé pro králíčky, pomáhá jim to s jejich zoubky. Dá se také říct, že látky v kůře mají pro králíčkovy zuby 
+                stejný účinek jako zubní pasta pro lidské zuby. Zároveň je okusování větví tím nejlepším prostředkem pro broušení zoubků (králíček si ale 
+                brousí zoubky třeba také i o kořenovou zeleninu a kořeny bylinek). Mezi vhodné dřeviny pro králičí okusovaní určitě patří planika, borovice 
+                (není vhodná příliš často, protože obsahuje éterické oleje), borůvka, bříza (u břízy zase listy působí velmi močopudně, proto je lepší tyto 
+                větve také nepoužívat ve větším množství), buk (zde je zase nevýhodou vysoký obsah kyseliny šťavelové), granátovník, habr (zde je zase vysoký 
+                obsah kyseliny tříslové, zároveň tento strom mívá problémy s plísní, proto je třeba vždy pořádně větev zkontrolovat), hloh 
+                (výhodný pro srdeční činnost králíčka), hrušeň, jabloň, jasan (zde je třeba vědět druh jasanu, některé typy jsou zcela nevhodné, zároveň se nikdy 
+                králíčkovi nepodávají plody a pupeny jasanu!), javor (i zde je důležité, aby větev neměla na sobě žádné pupeny a květy, a i tak je vhodnější dávat 
+                králíčkovi takovou větev v malém množství), jilm (zde je třeba dát si pozor na plody), jedle (obsahuje velké množství éterických olejů, proto je lepší 
+                ji dopřát králíčkovi jen občas a v malém množství), líska, lípa (lípa působí na králíčka močopudně, a proto je také lepší ji využívat málokdy), 
+                maliník, olivovník, olše (jen malé množství), ostružník, třešeň a švestka (jádra obsahují vysoké množství kyseliny kyanovodíkové, a proto jsou 
+                jedovatá, kůru a listy ale králíček zvládne, i přesto se velké množství nedoporučuje), platan, rybíz, smrk (i smrk obsahuje vysoké množství éterických 
+                olejů, a tak je velké množství pro králíčky nevhodné), topol (lepší podávat v malém množství), vrba (obsahuje kyselinu tříselnou a léčivé látky, 
+                a proto je opět lepší podávat menší množství).
+
+                Mezi nevhodné a i jedovaté dřeviny beze sporu patří: bez černý a bez hroznatý (je možné ale dát králíčkovi květy této dřeviny, jen ale v malé množství), 
+                bez chebdí (jedovatý), cedr (éterické oleje), všechny citrusové dřeviny (éterické oleje), dub (jedovatá tříslovina), durman (jedovatý), fíkovník 
+                smokvoň (jedovatý), jalovec (jedovatý), jírovec maďal zvaný kaštan (látky dráždící střeva), oleandr (jedovatý), ořešák královský, pámelník bílý, 
+                pižmovka mošusová, ptačí zob obecný, rododendron (jedovatý), svída (plody a listy jsou nejedlé), škumpa, šeřík, tis černý, trnovník akát, tůje, 
+                zimolez, zimostráz obecný, zlatý déšť.
+
+                U dřevin tedy platí stejné pravidlo jako u bylin, pokud si nejste jistí, že dřevina není pro králíčka škodlivá, je vhodnější ji zcela vynechat. 
+                Zároveň i u dřevin platí, že je lepší používat dřeviny, které nepocházejí z míst blízko silnic.
+            </p>
+        </div>
+
+        <div class="ovoce">
+            <img src="Photo/ovoce.png" alt="ovoce" class="ovoce-img">
+            
+            <h2>
+                Ovoce
+            </h2>
+
+            <p>
+                Téměř poslední složkou stravy králíčků je ovoce. Pro člověka by ovoce mělo být běžnou součástí jídelníčku, u králíčka je to ale jinak, zde ovoce 
+                slouží jen jako pamlsek a rozhodně se musí používat jen v malé míře, protože pro králíčka obsahuje velké množství cukru. A stejně jako lidem, i 
+                králíčkům hrozí cukrovka. Pokud dokonce má váš králíček nadváhu, tak byste měli ovoce zcela vynechat. Jinak se ovoce může podávat zhruba třikrát 
+                týdně v malém množství (to jsou třeba tři malé kousky)
+
+                Pokud ovoce ale obsahuje pecku nebo jádra, určitě byste je měli nejprve odstranit, stejně tak nejsou rozhodně vhodné různé slupky, na nichž často 
+                ulpívají různé postřiky.
+
+                Mezi vhodné ovoce pro králíčky patří ananas (vláknina – dobrá proti línání), angrešt, jablko (odstranit jádra obsahující kyselinu kyanovodíkovou), 
+                banán (může ale způsobovat zácpu a obsahuje velké množství cukru a fosforu, který může ve velkém množství způsobit deformaci zoubků), hruška 
+                (hodně cukru a vody, která může způsobit průjmy), jahody (vhodné plody i listy), šípky (vysoký obsah vitamínu C), borůvky (vhodné jsou plody, 
+                listy i větvičky), maliny (vhodné jsou plody, listy i větvičky), ostružiny (vhodné jsou plody, listy i větvičky), rybíz (vhodné jsou plody, listy 
+                i větvičky; plody se ale doporučují maximálně dvakrát týdně), kiwi (obsahuje hodně cukru, vhodný třeba v době línání, ale i tak v malém množství), 
+                mandarinky (obsahují ovocné kyseliny dráždící kůži a okyselují moč), meloun (vhodná dužina, nevhodná je zelená slupka, působí ale močopudně), 
+                pomeranče (stejně jako mandarinky ovocné kyseliny dráždí kůži a okyselují moč), červené i bílé hroznové víno (ideálně nejprve zbavit jader, také 
+                obsahuje hodně cukru a kyseliny tříslové), meloun cukrový (velký obsah cukru), třešeň (ve větším množství může spolu s vodou způsobit průjmy, 
+                jádro obsahuje kyselinu kyanovodíkovou), broskev (stejně jako třešeň může spolu s vodou způsobit průjmy a jádro obsahuje kyselinu kyanovodíkovou), 
+                švestka (stejné jako broskev a třešeň), nektarinka (stejné jako třešeň, švestka a broskev), meruňka (stejné jako třešeň, broskev, švestka a nektarinka).
+
+                Stejně jako zelenina, byliny a dřeviny, není každé ovoce pro králíčky úplně vhodné, protože některá ovoce jsou pro ně jedovatá (avokádo), 
+                jiná příliš tučná (kokos) a další jim mohou způsobit velmi silné a nepříjemné trávicí potíže (papája, curuba, granátové jablko, guáve, physalis, 
+                liči, mango a další exotické ovoce).
+            </p>
+        </div>
+
+        <div class="pamlsky">
+            <img src="Photo/pamlsek.png" alt="pamlsky" class="pamlsky-img">
+            
+            <h2>
+                Pamlsky
+            </h2>
+
+            <p>
+                Jak již tady zaznělo, ovoce se řadí spíše k pamlskům, ale i tak má v králičím jídelníčků své opodstatněné místo jako pamlsek. Pokud se ale budete rozhodovat, 
+                jestli králíčkovi dopřát spíše ovoce čerstvé, nebo sušené, vhodnější je rozhodně čerstvé, protože každé sušené ovoce obsahuje více cukru než ovoce čerstvé. 
+                Řada majitelů volí také pro své králíčky jako sladkou odměnu i pamlsky běžně prodávané v obchodech. Dokonce někteří jako pamlsek pro králíčka využívají 
+                různých ovocných džusů, které samozřejmě neobsahují žádné konzervanty. Pokud se rozhodnete pro takový typ pamlsků, je vždy třeba sledovat složení takového výrobku. 
+                Pamlsek pro králíčka by neměl obsahovat moc tuku a cukru a už vůbec se v něm nesmí objevit složky jako mléko, vejce, med a živočišná moučka. Je opravdu nutné číst 
+                u všeho složení, některé složky jako třeba živočišná moučka se vyskytují i v pamlscích, kde by je nikdo nečekal. Jako příležitostný pamlsek jsou pro králíčka určitě 
+                vhodná vojtěšková kolečka, tyčinky, různé zdravé bonbónky a polštářky, ovesné vločky, svatojánský chléb, již zmiňované ovocné džusy bez konzervantů, ale i neslazené 
+                ovocné a bylinkové čaje (i u nich je důležité složení!).
+
+                Králíček by neměl mlsat příliš často, může ale dostat třeba tři kousky denně (samozřejmě ne nic velkého, například tyčinka mu jistě stačí jedna).
+
+                Jako příklad nevhodného pamlsku pro králíčka může sloužit suchý chleba, jehož složení není rozhodně pro králíčka ideální. Samozřejmě mu jeden kousek za čas neublíží, 
+                ale také pro něj nemá žádnou výhodu, ani si o něj neobrušuje zoubky, jak tvrdí někteří chovatelé. Pro králíčky také nejsou vhodné (přestože je řada zverimexů nabízí) 
+                výrobky s mlékem, tyčinky slepené medem, vojtěšková kolečka s drůbeží moučkou, všechny mléčné výrobky, ořechy, káva, čokoláda, piškoty, sušenky, různé pečivo a houby.
+            </p>
+        </div>
+
+        <div class="dieta">
+            <img src="Photo/dieta.png" alt="dieta" class="dieta-img">
+            
+            <h2>
+                Dieta
+            </h2>
+
+            <p>
+                Někteří majitelé se domnívají, že pokud jejich králičí mazlíčci přiberou, tak řešením je pro ně stejně jako u lidí dieta. Dieta u králíčků je sice možná, 
+                ale musí být postupná a rozhodně neznamená, že králíček kvůli tomu bude hladovět. Naopak hladovka je nejen absolutně nevhodná, ale také extrémně nebezpečná. 
+                Pokud tedy dojdete k názoru, že se váš králíček proměnil v tučnou kuličku, můžete upravit jeho jídelníček, ale musíte respektovat jistá pravidla. Prvním pravidlem je, 
+                že i v době diety musí mít králíček neustále k dispozici dostatek sena. Druhým pravidlem je že kromě sena je hlavní potravou králíčka čerstvá zelenina. Tady už je důležitý 
+                výběr, protože některá zeleniny obsahuje větší množství sacharidů, a proto je pro králičí dietu nevhodná. Třetím pravidlem je jasné omezení všech granulí a ovoce. 
+                Nejde o to, abyste králíčkovi příjem granulí zatrhli okamžitě, naopak by zhruba v rámci čtrnácti dnů mělo být jejich množství neustále snižováno a pak zcela vyloučeno. 
+                Králíček si musí zvyknout, že se jeho stravovací návyky postupně mění. Náhlá změna by mu mohla způsobit zdravotní problémy, anebo vyvolat i změny nálad. 
+                Posledním a jistě logickým bodem je vyloučení všech pamlsků, protože i vhodné pamlsky obsahují tuky a cukry, které rozhodně nejsou pro dietu to pravé ořechové. 
+                Při dietě je dobré sledovat úbytek váhy králíčka, nikdy by nemělo být hubnutí příliš rychlé, ideální je tedy králíčka pravidelně vážit a sledovat jeho zdravotní stav. 
+                Stejně jako pro člověka, když chce zhubnout, stejně tak i pro králíčka je jako nejlepší způsob hubnutí doporučován pohyb. Pokud bude i 
+                nadále králíček celý den zavřený v kleci, kde se nemůže příliš hýbat, hubnutí půjde velmi pomalu. Naopak králíček, který se může i několik 
+                hodin denně proběhnout, nebude mít takový problém kila (gramy) shodit.
+            </p>
+        </div>
+        
+    </section>
+    
+    <section class="fotogalerie" id="fotogalerie">
+
+    </section>
+
+    <!------SCRIPT------>
+    <script>   
+        var menuBtn = document.getElementById("menuBtn")
+        var nav = document.getElementById("nav-links")
+        var menu = document.getElementById("menu")
+        nav.style.right = "-340px"; 
+        menuBtn.onclick = function() {
+           if(nav.style.right == "-340px"){
+             nav.style.right = "0";
+             menu.src = "Photo/close.png";
+           }
+           else{ 
+               nav.style.right = "-340px"; 
+               menu.src = "Photo/menu.png";  
+           }
+        }  
+       </script>
+        <script src = "index.js"></script>
+</body>
+</html>
